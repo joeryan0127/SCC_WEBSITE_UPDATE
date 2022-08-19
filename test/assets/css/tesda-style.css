@@ -1,0 +1,41 @@
+#topbar {
+    background-color: var(--fifth-color);
+}
+
+.tesda-container .section-title h2 {
+    margin-top: 70px;
+}
+
+.tesda-container .offers-benefits h2,
+.tesda-container h1,
+.tesda-container h4 {
+    color: var(--secondary-color);
+}
+
+.tesda-container #bread-pastry h3,
+.tesda-container #food-beverage h3,
+.tesda-container #computer-servicing h3 {
+    line-height: 15px;
+    color: var(--fifth-color);
+}
+
+.tesda-container p,
+.tesda-container li {
+    color: var(--grayish-color);
+}
+
+.tesda-container img {
+    width: 50vw;
+}
+
+.tesda-container .anchor-tag {
+    list-style-type: none;
+}
+
+.tesda-container .anchor-tag li a {
+    color: var(--secondary-color);
+}
+
+.tesda-container .anchor-tag a:hover {
+    color: var(--fifth-color);
+}

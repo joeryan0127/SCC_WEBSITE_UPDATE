@@ -1,0 +1,152 @@
+#header {
+    background-color: #ffffff4d;
+}
+
+#header .navbar a {
+    color: var(--primary-color);
+}
+
+.navbar .dropdown ul a {
+    color: var(--secondary-color) !important;
+}
+
+#header.header-scrolled {
+    background-color: var(--primary-color);
+}
+
+#header.header-scrolled .navbar a {
+    color: var(--secondary-color);
+}
+
+.history-container .container {
+    max-width: 1000px;
+}
+
+#history-hero {
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background: url("../img/history/st.cecilia.jpg") center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+#history-hero:before {
+    content: "";
+    background: #00000066;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#history-hero .container {
+    padding-top: 120px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#history-hero .title-container {
+    padding: 0 40px;
+}
+
+#history-hero .head-title {
+    margin-bottom: 10px;
+    font-size: 4em;
+    font-weight: 700;
+    color: #f1f1f1;
+    line-height: 3.3rem;
+    text-shadow: 2px 0px #000000;
+}
+
+#history-hero .sub-title {
+    color: #f1f1f1;
+    text-align: justify;
+    text-shadow: 2px 0px #000000;
+    font-size: 20px;
+}
+
+.section {
+    padding-top: 90px;
+}
+
+.section h1 {
+    color: var(--secondary-color);
+}
+
+.section p {
+    color: var(--secondary-color);
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* video story */
+#history-story {
+    padding-top: 0;
+}
+
+.history-video {
+    width: 100%;
+    padding: 10px;
+}
+
+/* /video story */
+
+/* description */
+.history-list {
+    padding: 0;
+    list-style: none;
+}
+
+.history-list li {
+    border-bottom: 1px solid var(--shadow-color);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.history-list .question {
+    display: block;
+    position: relative;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-left: 25px;
+    cursor: pointer;
+    color: var(--fifth-color);
+}
+
+.history-list i {
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.history-list p {
+    color: var(--secondary-color);
+    margin-bottom: 0;
+    padding: 10px 0 0 25px;
+}
+
+.history-list .icon-show {
+    display: none;
+}
+
+.history-list .collapsed {
+    color: var(--secondary-color);
+}
+
+.history-list .collapsed:hover {
+    color: var(--fifth-color);
+}
+
+.history-list .collapsed .icon-show {
+    display: inline-block;
+}
+
+.history-list .collapsed .icon-close {
+    display: none;
+}

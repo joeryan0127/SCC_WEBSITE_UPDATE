@@ -1,0 +1,2 @@
+[10-Jun-2022 07:54:32 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/stcecili/public_html/master/Page/include/sessions.php on line 2
+[10-Jun-2022 07:54:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/stcecili/public_html/master/Page/dashboard.php:1) in /home/stcecili/public_html/master/Page/include/sessions.php on line 6

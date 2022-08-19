@@ -1,0 +1,73 @@
+#topbar {
+    background-color: var(--fifth-color);
+}
+
+.gallery-container .section-title h2 {
+    margin-top: 70px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.thumbnail a>img,
+.thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.thumbnail a>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    height: 250px;
+    border-radius: 4px 4px 0 0;
+}
+
+.tz-gallery .caption {
+    background-color: var(--tertiary-color);
+    padding: 26px 30px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.tz-gallery .caption h3 {
+    color: var(--secondary-color);
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: var(--secondary-color);
+    margin: 0;
+}

@@ -1,0 +1,44 @@
+.testimonials-container .section-title h2 {
+    margin-top: 70px;
+}
+
+.testimonials-container .media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.testimonials-container .media img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    border-radius: 50%;
+}
+
+.testimonials-container .media-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.testimonials-container .testimonial {
+    padding: 0 15px 0 60px;
+    position: relative;
+}
+
+.testimonials-container .testimonial::before {
+    content: "\201C";
+    font-family: Arial, sans-serif;
+    color: #c4ecff;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 54px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+
+.testimonials-container .overview b {
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}

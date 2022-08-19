@@ -1,0 +1,71 @@
+#topbar {
+    background-color: var(--fifth-color);
+}
+
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: var(--grayish-color) !important;
+    border-style: solid;
+    border-width: 1px !important;
+}
+
+#calendar {
+    background-color: var(--tertiary-color);
+}
+
+.calendar-container .section-title h2 {
+    margin-top: 70px;
+}
+
+.calendar-container .fc .fc-toolbar-title {
+    color: var(--secondary-color);
+}
+
+.calendar-container .fc .fc-col-header-cell-cushion {
+    color: var(--secondary-color);
+}
+
+.calendar-container .fc .fc-daygrid-day-number {
+    color: var(--secondary-color);
+}
+
+@media (max-width: 830px) {
+    .calendar-container .fc .fc-view-harness {
+        height: 60vh !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .calendar-container .fc-direction-ltr .fc-toolbar>*>:not(:first-child) {
+        margin: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .calendar-container .fc-toolbar-chunk {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .calendar-container .fc-toolbar-chunk .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.calendar-container .btn-primary {
+    color: #ffffff;
+    background-color: var(--fifth-color);
+    border-color: var(--sixth-color);
+}
+
+.calendar-container .btn-primary:hover {
+    background-color: var(--sixth-color);
+}

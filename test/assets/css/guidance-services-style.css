@@ -1,0 +1,101 @@
+#topbar {
+    background-color: var(--fifth-color);
+}
+
+.guidance-container .section-title h2 {
+    margin-top: 70px;
+}
+
+.page-section {
+    padding-bottom: 1rem;
+}
+
+.intro .intro-img,
+.intro2 .intro-img2 {
+    height: auto;
+}
+
+/* Page Section 1 */
+.intro {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .intro .intro-img {
+        width: 75%;
+        float: right;
+    }
+
+    .intro .intro-text {
+        left: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute;
+    }
+
+    .intro .intro-text .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .intro .intro-text {
+        width: 45%;
+    }
+}
+
+.section-heading {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+    display: block;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.guidance-container p {
+    color: var(--secondary-color);
+}
+
+.bg-faded {
+    background-color: var(--tertiary-color);
+    box-shadow: 0 8px 15px var(--shadow-color);
+    transition: all 0.5s;
+}
+
+/* Page Section 2 */
+.intro2 {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .intro2 .intro-img2 {
+        width: 75%;
+        float: left;
+    }
+
+    .intro2 .intro-text2 {
+        right: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute;
+    }
+
+    .intro2 .intro-text .intro-button2 {
+        width: 100%;
+        right: 0;
+        position: absolute;
+        bottom: -2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .intro2 .intro-text2 {
+        width: 45%;
+    }
+}

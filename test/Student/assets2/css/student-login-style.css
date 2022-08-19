@@ -1,0 +1,28 @@
+body {
+    background: url(../img/login-bg.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.auth-form {
+    width: 340px;
+    margin: 0 auto;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}
+
+.auth-form-body {
+    background-color: #f6f8fa;
+    padding: 16px;
+    font-size: 14px;
+}
+
+@media (max-width: 340px) {
+    .auth-form {
+        width: 100%;
+    }
+}

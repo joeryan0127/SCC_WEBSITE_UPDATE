@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+    .featured-services .container,
+    .video-container .container,
+    .counts .container,
+    .testimonials .container,
+    .doctors .container,
+    .pricing .container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .featured-services .container,
+    .testimonials .container,
+    .counts .container,
+    .doctors .container,
+    .gallery .container,
+    .pricing .container,
+    #video-desc {
+        max-width: 540px;
+    }
+}

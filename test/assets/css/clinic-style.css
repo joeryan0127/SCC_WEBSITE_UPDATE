@@ -1,0 +1,63 @@
+#topbar {
+    background-color: var(--fifth-color);
+}
+
+.clinic-container .section-title h2 {
+    margin-top: 70px;
+}
+
+.clinic-container .card-body {
+    background-color: var(--tertiary-color);
+    transition: all 0.5s;
+}
+
+.clinic-container h3 {
+    color: #000000;
+}
+
+.clinic-container .indention {
+    text-indent: 10px;
+    margin: 0;
+}
+
+.clinic-container .label-text {
+    color: var(--secondary-color);
+}
+
+.clinic-container .card-text p {
+    color: var(--secondary-color);
+}
+
+.clinic-container .label-text span {
+    color: var(--boldprimary-color);
+}
+
+.clinic-container .clinic-desc {
+    background-color: var(--tertiary-color);
+    transition: all 0.5s;
+}
+
+/* Edit */
+.clinic-desc {
+    padding: 10px;
+}
+
+.clinic-desc hr {
+    background-color: var(--grayish-color);
+}
+
+.design-title,
+#d1,
+#d2,
+#d3,
+#d4 {
+    background-color: var(--fifth-color);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.design-sub {
+    color: var(--secondary-color);
+    padding: 20px;
+}

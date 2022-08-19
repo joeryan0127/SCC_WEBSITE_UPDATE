@@ -1,0 +1,78 @@
+#topbar {
+    background-color: var(--fifth-color);
+}
+
+.faculty-container .section-title h2 {
+    margin-top: 70px;
+}
+
+.faculty-container h3 {
+    color: var(--secondary-color);
+}
+
+.faculty-container .member {
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.faculty-container .member .pic {
+    border-radius: 5px;
+    box-shadow: var(--grayish-color) 0px 5px 15px;
+    overflow: hidden;
+}
+
+.faculty-container .member .member-info {
+    position: absolute;
+    bottom: -70px;
+    left: 20px;
+    right: 20px;
+    background: var(--primary-color);
+    padding: 10px 10px 40px;
+    color: var(--secondary-color);
+    box-shadow: var(--grayish-color) 0px 8px 14px -5px, var(--grayish-color) 0px 8px 12px -8px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.faculty-container .member h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.faculty-container .member h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: var(--fifth-color);
+    bottom: 0;
+    left: 0;
+}
+
+.faculty-container .member span {
+    color: var(--grayish-color);
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+.faculty-container .member .social {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.faculty-container .member .social a {
+    transition: color 0.3s;
+    color: var(--fifth-color);
+}
+
+.faculty-container .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+}

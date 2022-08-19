@@ -1,0 +1,150 @@
+#header {
+    background-color: #ffffff4d;
+}
+
+#header .navbar a {
+    color: var(--primary-color);
+}
+
+.navbar .dropdown ul a {
+    color: var(--secondary-color) !important;
+}
+
+#header.header-scrolled {
+    background-color: var(--primary-color);
+}
+
+#header.header-scrolled .navbar a {
+    color: var(--secondary-color);
+}
+
+.login-btn {
+    background-color: var(--fade-color);
+}
+
+#header.header-scrolled .login-btn {
+    background-color: var(--fifth-color);
+}
+
+section.our-team {
+    padding-top: 0;
+    padding-bottom: 70px;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+#team-cover {
+    width: 100%;
+    height: auto;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    background: url("../img/team-profile/cover-teams.jpg") bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#team-cover:before {
+    content: "";
+    background: #00000066;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 991px) {
+    #team-cover {
+        background-attachment: scroll;
+    }
+}
+
+.our-team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s;
+    border-radius: 100%;
+    border: 6px solid #ffffff;
+}
+
+.our-team h2 {
+    font-size: 36px;
+    color: var(--team-color);
+    font-weight: normal;
+    margin-top: 4rem;
+}
+
+.our-team p {
+    color: #8a8a8a;
+    width: 70%;
+    margin: 10px auto 10px;
+}
+
+hr {
+    background: var(--secondary-color);
+}
+
+.our-team .member:hover {
+    box-shadow: 0px 10px 0px 0px var(--team-color);
+}
+
+.our-team .member .member-info {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.our-team .member .member-detail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+.our-team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: -38px;
+    right: 0;
+    height: 48px;
+    transition: bottom ease-in-out 0.4s;
+    text-align: center;
+}
+
+.our-team .member .social a {
+    margin: 0 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+.our-team .member .social a:hover {
+    color: #0ee20e;
+}
+
+.our-team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+.our-team .member:hover .member-info {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0.57) 20%, rgba(121, 85, 72, 0.09) 100%);
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.our-team .member:hover .member-detail {
+    bottom: 80px;
+}
+
+.our-team .member:hover .social {
+    bottom: 10px;
+}

@@ -1,0 +1,2 @@
+[17-Jun-2022 06:04:44 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/stcecili/public_html/test/Student/includes/conn.php on line 2
+[17-Jun-2022 06:04:51 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/stcecili/public_html/test/Student/includes/conn.php on line 2
