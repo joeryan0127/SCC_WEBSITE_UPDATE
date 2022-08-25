@@ -1,5 +1,5 @@
 <?php
-include 'navigation-bar.php';
+include 'soa_nav-bar.php';
 
 ?>
                     <script>
@@ -21,7 +21,7 @@ include 'navigation-bar.php';
         <div class="main-panel">
           <div class="content-wrapper">
              <div class="row">
-              <div class="col-sm-4 grid-margin">
+              <!-- <div class="col-sm-4 grid-margin">
                 <div class="card">
                   <div class="card-body">
                     <h5>Students</h5>
@@ -35,7 +35,7 @@ include 'navigation-bar.php';
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <!-- <div class="col-sm-4 grid-margin">
                 <div class="card">
                   <div class="card-body">
@@ -51,7 +51,7 @@ include 'navigation-bar.php';
                   </div>
                 </div>
               </div> -->
-              <div class="col-sm-4 grid-margin">
+              <!-- <div class="col-sm-4 grid-margin">
                 <div class="card">
                   <div class="card-body">
                     <h5>Tuitions</h5>
@@ -65,9 +65,9 @@ include 'navigation-bar.php';
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
-            <hr style="background-color: white;">
+            <!-- <hr style="background-color: white;"> -->
             <!-- News and Updaes for SCO -->
 
             <h3>News and Updates</h3>

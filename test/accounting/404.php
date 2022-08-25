@@ -1,6 +1,6 @@
 <script>
 if (navigator.onLine) {
-    window.location = "loginadmin.php";
+    window.location = "../accounting/index.php";
 }else{
 }
 

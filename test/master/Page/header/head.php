@@ -1,6 +1,7 @@
 <?php include 'include/sessions.php'?>
 <script>
 if (navigator.onLine) {   
+
 }else{
   window.location = "../404.php";
 }

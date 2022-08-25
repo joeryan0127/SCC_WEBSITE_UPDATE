@@ -1,12 +1,15 @@
 <?php
 	session_start();
-	if(isset($_SESSION['username'])){
-		header('location: Page/dashboard.php');
-		exit();
-	}
-	else{
-		unset($_SESSION['username']);
-	}
+	// if(isset($_SESSION['username']) && $_SESSION['status']="Admin"){
+	// 	header('location: Page/dashboard.php');
+	// 	exit();
+	// }else if(isset($_SESSION['username']) && $_SESSION['status']="SCO"){
+  //   header('location: Page/soa_dashboard.php');
+	// 	exit();
+  // }
+  // else{
+	// 	unset($_SESSION['username']);
+	// }
 ?>
 <script>
 if (navigator.onLine) {

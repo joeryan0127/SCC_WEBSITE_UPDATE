@@ -64,7 +64,7 @@ include 'navigation-bar.php';
                             <?php include 'modal/acadyear-modal.php'; ?>
 
                             <!-- Delete Account -->
-                            <a id="<?php echo $acad_id; ?>" href="#deleteAcad<?php echo $acad_id;?>"<?php echo $acad_id?>type="button" class="btn btn-outline-danger btn-fw" data-bs-toggle="modal" data-bs-target="#deleteAcad<?php echo $acad_id;?>">Delete</a>
+                            <!-- <a id="<?php echo $acad_id; ?>" href="#deleteAcad<?php echo $acad_id;?>"<?php echo $acad_id?>type="button" class="btn btn-outline-danger btn-fw" data-bs-toggle="modal" data-bs-target="#deleteAcad<?php echo $acad_id;?>">Delete</a> -->
                             <?php include 'modal/acadyear-modal.php'; ?>
 
 
