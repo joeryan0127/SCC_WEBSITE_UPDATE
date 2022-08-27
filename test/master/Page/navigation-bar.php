@@ -21,9 +21,17 @@ include 'header/head.php';
                   <span><?php echo $result['status'];?></span>
                 </div>
               </div>
+             
+                    
+                
               <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
               <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list" aria-labelledby="profile-dropdown">
-                <a href="manage-account.php?page=account" class="dropdown-item preview-item">
+             
+             <?php
+          
+                if($result['status']=='Admin'){
+             
+            echo' <a href="manage-account.php?page=account" class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
                     <div class="preview-icon bg-dark rounded-circle">
                       <i  class="mdi mdi-account text-primary"></i>
@@ -43,7 +51,10 @@ include 'header/head.php';
                   <div class="preview-item-content">
                     <p class="preview-subject ellipsis mb-1 text-small">Manage Accounting Acc</p>
                   </div>
-                </a>
+                </a>';
+              }
+              ?> 
+             
                 <div class="dropdown-divider"></div>
               </div>
             </div>
@@ -69,33 +80,83 @@ include 'header/head.php';
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="bsit.php">BSIT</a></li>
-                <li class="nav-item"> <a class="nav-link" href="bshm.php">BSHM</a></li>
-                <li class="nav-item"> <a class="nav-link" href="bstm.php">BSTM</a></li>
-                <li class="nav-item"> <a class="nav-link" href="bscrim.php">BSCRIM</a></li>
-                <li class="nav-item"> <a class="nav-link" href="bsed.php">BSED</a></li>
-                <li class="nav-item"> <a class="nav-link" href="beed.php">BEED</a></li>
-                <li class="nav-item"> <a class="nav-link" href="bsba.php">BSBA</a></li>
+
+              <?php
+              if($result['status']=='BSIT'){
+
+              echo '<li class="nav-item"> <a class="nav-link" href="bsit.php">BSIT</a></li>';
+              
+            }else  if($result['status']=='BSHM'){
+
+              echo ' <li class="nav-item"> <a class="nav-link" href="bshm.php">BSHM</a></li>';
+              echo '  <li class="nav-item"> <a class="nav-link" href="bstm.php">BSTM</a></li>';
+              echo '  <li class="nav-item"> <a class="nav-link" href="bsba.php">BSBA</a></li>';
+            
+            }else if($result['status']=='BSCRIM'){
+            
+              echo '<li class="nav-item"> <a class="nav-link" href="bscrim.php">BSCRIM</a></li>';
+            
+            }else if($result['status']=='BEED'){
+            
+              echo '<li class="nav-item"> <a class="nav-link" href="bscrim.php">BSCRIM</a></li>';
+              echo '<li class="nav-item"> <a class="nav-link" href="bsed.php">BSED</a></li>';
+              echo '<li class="nav-item"> <a class="nav-link" href="beed.php">BEED</a></li>';
+            
+            }else{
+              echo '<li class="nav-item"> <a class="nav-link" href="bsit.php">BSIT</a></li>';
+              echo ' <li class="nav-item"> <a class="nav-link" href="bshm.php">BSHM</a></li>';
+              echo '  <li class="nav-item"> <a class="nav-link" href="bstm.php">BSTM</a></li>';
+              echo '  <li class="nav-item"> <a class="nav-link" href="bsba.php">BSBA</a></li>';
+              echo '<li class="nav-item"> <a class="nav-link" href="bscrim.php">BSCRIM</a></li>';
+              echo '<li class="nav-item"> <a class="nav-link" href="bscrim.php">BSCRIM</a></li>';
+              echo '<li class="nav-item"> <a class="nav-link" href="bsed.php">BSED</a></li>';
+              echo '<li class="nav-item"> <a class="nav-link" href="beed.php">BEED</a></li>';
+            }
+            
+
+                
+               
+              
+                
+                
+                ?>
               </ul>
             </div>
           </li>
-          <li class="nav-item menu-items">
-            <a class="nav-link" href="manage-academicyear.php">
-              <span class="menu-icon">
-                <i class="mdi mdi-playlist-play"></i>
-              </span>
-              <span class="menu-title">Academic Year</span>
-            </a>
-          </li>
-          <li class="nav-item menu-items">
-            <a class="nav-link" href="manage-schedule.php">
-              <span class="menu-icon">
-                <i class="mdi mdi-playlist-play"></i>
-              </span>
-              <span class="menu-title">Schedule</span>
-            </a>
-          </li>
-   
+
+      <?php
+      if($result['status']=='Admin'){
+
+     
+
+       echo '<li class="nav-item menu-items">';
+       echo '    <a class="nav-link" href="manage-academicyear.php">';
+       echo ' <span class="menu-icon">';
+       echo '   <i class="mdi mdi-playlist-play"></i>';
+       echo ' </span>';
+       echo ' <span class="menu-title">Academic Year</span>';
+       echo '</a>';
+       echo '</li>';
+       echo '<li class="nav-item menu-items">';
+       echo '<a class="nav-link" href="manage-schedule.php">';
+       echo ' <span class="menu-icon">';
+       echo '   <i class="mdi mdi-playlist-play"></i>';
+       echo ' </span>';
+       echo ' <span class="menu-title">Schedule</span>';
+       echo '</a>';
+       echo '</li>';
+
+        }else if($result['status']=='SCO'){
+          echo '<li class="nav-item menu-items">';
+          echo '<a class="nav-link" href="manage-schedule.php">';
+          echo ' <span class="menu-icon">';
+          echo '   <i class="mdi mdi-playlist-play"></i>';
+          echo ' </span>';
+          echo ' <span class="menu-title">Schedule</span>';
+          echo '</a>';
+          echo '</li>';
+        }
+        ?>
         </ul>
       </nav>
       <!-- partial -->

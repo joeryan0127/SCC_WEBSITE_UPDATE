@@ -20,27 +20,33 @@
 		
 		}else if($check === false){
 			$_SESSION['error'] = 'Incorrect password';
-			
+		}else{
+			session_start();
+					$_SESSION['username'] = $row['a_id'];
+	
+					header('location: Page/dashboard.php?error=success');
+					exit();
+		}
 			  
-			}else if($row['status']== "Admin"){
+		// 	}else if($row['status']== "Admin"){
 
-				  session_start();
-				$_SESSION['username'] = $row['a_id'];
+		// 		  session_start();
+		// 		$_SESSION['username'] = $row['a_id'];
 
-				header('location: Page/dashboard.php?error=success');
-				exit();
-			}else if($row['status']== "SCO"){
+		// 		header('location: Page/dashboard.php?error=success');
+		// 		exit();
+		// 	}else if($row['status']== "SCO"){
 
-				session_start();
-			  $_SESSION['username'] = $row['a_id'];
+		// 		session_start();
+		// 	  $_SESSION['username'] = $row['a_id'];
 
-			  header('location: Page/soa_dashboard.php?error=success');
-			  exit();
-		  }
-			else{
-				$_SESSION['error'] = 'Incorrect pass';
+		// 	  header('location: Page/soa_dashboard.php?error=success');
+		// 	  exit();
+		//   }
+		// 	else{
+		// 		$_SESSION['error'] = 'Incorrect pass';
 		
-			}
+		// 	}
 
 		}
 				header('location: index.php');

@@ -15,6 +15,10 @@
             <option >Select Status</option>
             <option>Admin</option>
             <option>SCO</option>
+            <option>BSIT</option>
+            <option>BSHM</option>
+            <option>BEED</option>
+            <option>BSCRIM</option>
           </select>
         </div>
         <div class="form-group">
@@ -23,7 +27,7 @@
         </div>
         <div class="form-group">
           <label for="exampleInputName1">Lastname</label>
-          <input type="text" class="form-control" id="exampleInputName1" placeholder="Name" required name="flastname">
+          <input type="text" class="form-control" id="exampleInputName1" placeholder="Last name" required name="flastname">
         </div>
         <div class="form-group">
           <label for="exampleInputEmail3">Email address</label>
