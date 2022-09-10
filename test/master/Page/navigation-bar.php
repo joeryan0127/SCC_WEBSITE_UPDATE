@@ -102,7 +102,7 @@ include 'header/head.php';
               echo '<li class="nav-item"> <a class="nav-link" href="bsed.php">BSED</a></li>';
               echo '<li class="nav-item"> <a class="nav-link" href="beed.php">BEED</a></li>';
             
-            }else{
+            }else if($result['status']=='Admin'){
               echo '<li class="nav-item"> <a class="nav-link" href="bsit.php">BSIT</a></li>';
               echo ' <li class="nav-item"> <a class="nav-link" href="bshm.php">BSHM</a></li>';
               echo '  <li class="nav-item"> <a class="nav-link" href="bstm.php">BSTM</a></li>';

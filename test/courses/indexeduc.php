@@ -79,7 +79,7 @@ include '../headers/course-navigation.php';
                     foreach ($query as $q){ ?>
                     <div class="column">
                         <div class="card">
-                            <img src="<?php echo '../master/images/'.$q['post_photo'];?>" style="width:100%">
+                            <img src="<?php echo '../master/images/'.$q['post_photo'];?>" style="max-height:200px; max-width:500px; object-fit: contain;">
                             <br>
                             <h2 class="text-left"><strong><?php echo $q['post_title']; ?></strong></h2>
                             <h6 class="text-left"><i>Date Posted:<br><?php echo $q['post_date']; ?></i></h6>
