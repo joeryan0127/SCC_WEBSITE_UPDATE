@@ -13,7 +13,7 @@
                             <br>
                             <div class ="side">
                             <br>
-                            326-3677 (Register's Office)<br>
+                            326-3677 (Registrar's Office)<br>
                             490-0767 (Accounting's Office)<br>
                             (032) 512-8068 / 0919-0727108 / 0991-0727107 / 0991-0727109 / 0991-0727106 (Marketing/Scholarship Office)<br>
                             0991-0727078 (Preschool Office)<br>
@@ -107,12 +107,12 @@
 </svg>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
+<!-- <script>
     baguetteBox.run('.news-updates-gallery');
 </script>
 <script>
     baguetteBox.run('.tz-gallery');
-</script>
+</script> -->
 
 <!-- JS Script Link -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

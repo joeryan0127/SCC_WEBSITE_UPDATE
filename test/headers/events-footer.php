@@ -13,7 +13,7 @@
                             <br>
                             <div class ="side">
                             <br>
-                            326-3677 (Register's Office)<br>
+                            326-3677 (Registrar's Office)<br>
                             490-0767 (Accounting's Office)<br>
                             (032) 512-8068 / 0919-0727108 / 0991-0727107 / 0991-0727109 / 0991-0727106 (Marketing/Scholarship Office)<br>
                             0991-0727078 (Preschool Office)<br>
